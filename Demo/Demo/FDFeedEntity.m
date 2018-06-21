@@ -15,7 +15,7 @@
     self = super.init;
     if (self) {
         _identifier = [self uniqueIdentifier];
-        _title = dictionary[@"title"];
+        _title = dictionary[@"title"]; 
         _content = dictionary[@"content"];
         _username = dictionary[@"username"];
         _time = dictionary[@"time"];
